@@ -1,0 +1,12 @@
+h1 {
+	color: blue;
+}
+
+input {
+	padding: 7px;
+	height: 40px;
+}
+
+fieldset {
+	margin-bottom: 20px;
+}

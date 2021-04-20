@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="/static/css/index.css" />
+		<script type="text/javascript" src="/static/js/message.js"></script>
+	</head>
+	<body onload="put()">
+		<h1>LocalStorage-JavaScript-Flask-Python chatBot</h1>
+
+		<fieldset>
+			<legend>Chat</legend>
+			<input id="inpKey" type="text" placeholder="Enter message..." />
+			<button type="button" id="btnInsert" onclick="send()">Send</button>
+		</fieldset>
+		<fieldset>
+			<legend>Local Storage</legend>
+			<div id="lsOutput"></div>
+		</fieldset>
+	</body>
+</html>
